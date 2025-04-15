@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: url('https://i.imgur.com/m1HgDnr.png') no-repeat center center fixed;
+            background: url('https://i.imgur.com/i3awEkP.png') no-repeat center center fixed;
             background-size: cover;
             text-align: center;
             padding: 20px;
@@ -15,7 +15,7 @@
         }
         
         .container {
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.92);
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -111,6 +111,10 @@
             <option value="750000">R$ 750.000</option>
             <option value="800000">R$ 800.000</option>
             <option value="1000000">R$ 1.000.000</option>
+            <option value="2000000">R$ 2.000.000</option>
+            <option value="3000000">R$ 3.000.000</option>
+            <option value="4000000">R$ 4.000.000</option>
+            <option value="5000000">R$ 5.000.000</option>
         </select>
 
         <label for="parcela">Valor da Parcela</label>
@@ -140,7 +144,11 @@
             "600000": [3500, 4500, 5500, 6500, 7500],
             "750000": [5000, 6000, 7000, 8000, 9000],
             "800000": [5500, 7000, 8500, 10000, 11500],
-            "1000000": [7000, 10000, 15000, 20000, 25000]
+            "1000000": [7000, 10000, 15000, 20000, 25000],
+            "2000000": [25000, 30000, 35000, 40000, 45000],
+            "3000000": [40000, 45000, 50000, 55000, 60000],
+            "4000000": [50000, 60000, 70000, 80000, 90000],
+            "5000000": [60000, 70000, 80000, 90000, 100000]
         };
 
         if (valor in opcoesParcelas) {
